@@ -115,7 +115,7 @@ class CognitoAuthSessionStateManager:
         """Returns the email saved in streamlit session state."""
         return st.session_state.get("auth_email") or None
 
-    def set_reset_password_session(self,
+    def set_reset_password(self,
         reset_password_username: str,
         reset_password_password: str,
         reset_password_session: str = "reset_password",
