@@ -1,14 +1,15 @@
 # Streamlit Cognito Auth
 
-A Streamlit component for authenticating users with AWS Cognito
+A Streamlit component for authenticating users with AWS Cognito. This is a fork from [streamlit-cognito-auth](https://github.com/pop-srw/streamlit-cognito-auth). 
 
 ## Installation
 
-To install the package, you can use pip:
+To install the original package, you can use pip:
 
 ```sh
-pip install streamlit-cognito-auth
+pip install -e git+https://github.com/elainekeung/streamlit-cognito-auth.git#egg=streamlit-cognito-auth
 ```
+## The following information is directly from [streamlit-cognito-auth](https://github.com/pop-srw/streamlit-cognito-auth). 
 
 ## Usage
 
