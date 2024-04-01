@@ -425,9 +425,7 @@ class CognitoAuthenticator(CognitoAuthenticatorBase):
             credentials = Credentials.from_tokens(tokens)
             return self._set_state_login(credentials=credentials)
 
-    def _set_reset_password(self,
-        reset_password_username: str, reset_password_password: str
-    ) -> None:
+    def _set_reset_password(self, reset_password_username: str, reset_password_password: str) -> None:
         logger.info("Set password reset state")
         self.session_manager.set_reset_password_session(
             reset_password_username, reset_password_password
